@@ -5,7 +5,5 @@ jobs:
  run-shell-commands:
    runs-on: ubuntu-latest
    steps:
-     - name: Checkout repository
-       uses: actions/checkout@v2
-     - name: Echo a String
-       run: echo "Hello Security guru!! This is the first github action to run shell commands"
+       - name: Echo a String
+         run: echo "Hello Security guru!! This is the first github action to run shell commands"
